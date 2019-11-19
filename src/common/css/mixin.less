@@ -1,0 +1,34 @@
+// 垂直居中
+.vc() {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+// 水平居中
+.hc() {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+// 垂直水平居中
+.hv() {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
+// 宽高
+.wh(@width, @height) {
+  width: @width;
+  height: @heigth;
+}
+
+// 文字大小,颜色
+.fsc(@size,@color){
+  font-size: @size;
+  color: @color;
+}
+
