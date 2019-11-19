@@ -17,7 +17,7 @@ module.exports = {
       '/api/*': {
         changeOrigin: true, // 是否跨域
         secure: false,
-        target: 'http://testbrowser.lambda.im/',//正式代理接口
+        target: 'www.baidu.com',//正式代理接口
       }
     },
     clientLogLevel: 'none',
